@@ -13,7 +13,7 @@ DIR_TMP = "/tmp"
 # default settings of the TestServer
 DEFAULT_DB_HOST = "127.0.0.1"
 DEFAULT_DB_PORT = 15721
-DEFAULT_DB_OUTPUT_FILE = "/tmp/db_log.txt"
+DEFAULT_DB_OUTPUT_FILE = "/tmp/noisepage_db_log.txt"
 DEFAULT_DB_BIN = "noisepage"
 DEFAULT_DB_USER = "noisepage"
 DEFAULT_TEST_OUTPUT_FILE = "/tmp/noisepage_test_{}.log".format(

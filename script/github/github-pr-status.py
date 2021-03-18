@@ -47,7 +47,7 @@ GITHUB_USER = 'cmu-db'
 GITHUB_REPO = 'noisepage'
 GITHUB_REPO_API_URL = "https://api.github.com/repos/%s/%s" % (GITHUB_USER, GITHUB_REPO)
 
-CACHE_FILEPATH = "/tmp/github-cache/%s.cache"
+CACHE_FILEPATH = "/tmp/noisepage-github-cache/%s.cache"
 
 EMAIL_FROM = "no-reply@db.cs.cmu.edu"
 EMAIL_PREFIX = "[Terrier] "

@@ -34,7 +34,7 @@ class ConnectionDestination {
    * @note      Implemented with Unix domain sockets. Faster than TCP.
    *
    * @param target_name The name of the target that is being connected to.
-   * @param pathname    A valid filesystem path on which the Messenger is listening for IPC, e.g., "/tmp/foo-ipc".
+   * @param pathname    A valid filesystem path on which the Messenger is listening for IPC, e.g., "/tmp/noisepage-foo-ipc".
    * @return A destination that will go over IPC. Note that no connection is actually made. See warning!
    */
   static ConnectionDestination MakeIPC(std::string target_name, std::string_view pathname);
